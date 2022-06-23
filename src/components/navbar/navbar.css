@@ -1,0 +1,44 @@
+.nav__container{
+    width: 100vw;
+    height: 70px;
+    background-color: #FFFAFB;
+    padding: 10px 50px;
+}
+
+.nav__wrapper{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+
+.navImg{
+    width: 48px;
+    height: 48px;
+    object-fit: contain;
+    margin-right: 20px;
+}
+
+.navText{
+    font-size: 22px;
+    color: #551010;
+    cursor: pointer;
+}
+
+.active{
+    border-bottom: 3px solid #FF2625;
+}
+
+@media screen and (max-width:768px){
+    .nav__container{
+        padding: 10px 10px;
+    }
+
+    .nav__wrapper{
+        gap: 10px;
+    }
+
+    .navText{
+        font-size: 18px;
+    }
+}
